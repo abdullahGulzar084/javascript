@@ -9,7 +9,17 @@
         var b= ary.map(test);
         document.write(b);
         function test(x){
-            return x*10;
+            return x*10 +"<br>";
+        }
+        var a= [
+            {fname: "Abdullah", lname: "Gulzar"},
+            {fname: "Asadullah", lname: "Gulzar"},
+            {fname: "Ayan", lname: "Ahmed"}
+        ];
+        var c= a.map(newt);
+        document.write(c);
+        function newt(d){
+            return d.fname + "  " + d.lname + "<br>";
         }
     </script>
 </head>
