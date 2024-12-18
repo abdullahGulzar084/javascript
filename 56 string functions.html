@@ -5,8 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script>
-        var str = "JavaScript is a Great Language";
-        a= str.length();
+        var str = "JavaScript is a Great is Language";
+        //var a = str.length() ;
+        var a = str.toLowerCase() ;
+        var a = str.toUpperCase();
+        var a = str.includes("Great");
+        var a = str.startsWith("Java");
+        var a = str.endsWith("age");
+        var a = str.search("ip");
+        var a = str.match(/a/g);
+        var a = str.indexOf("is");
+        var a = str.lastIndexOf("is");
+        var a = str.replace("JavaScript" , "PHP");
         document.write(a);
     </script>
 </head>
