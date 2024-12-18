@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        arr= [ 
+            ["Harry ", 18 , "Male" ," Bcome"],
+            ["Sunny" , 19, "Male ", "Bca" ],
+            [ "Sarah " , 18, "Female " , "BCA"],
+            ["tom" , 17, "Male", "B.A"],
+            ["tom" , 17, "Male", "B.A"]
+        ]; 
+        arr [4][0]="Abdullah";
+        delete arr[4][1];
+        arr.sort();
+        document.write("<table border='ipx' cellspacing='0'>")
+        for(a=0; a<arr.length; a++){
+            document.write("<tr>")
+            for(b=0; b<arr[a].length; b++){
+                document.write("<td>"+arr[a][b] + "</td>")
+            }
+            document.write("</tr>")
+        }
+        document.write("</table>")
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
