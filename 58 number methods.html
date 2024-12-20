@@ -9,12 +9,20 @@
         var a = true;
         var num = Number(a);
         document.write(num + 10 +"<br>" );
-        var b = 10.33;
+        var b = 10.33; //or 010 and output will be 10 only and ignore 0 before 10 
         var num =parseInt(b);
         document.write(num +"<br>" );
-        var b = 010 ; //or 10.33 and output will be 10 only
+        var b = 10.33 ; 
         var num =parseFloat(b);
         document.write(num +"<br>" );
+        var b = 100; //keyword infinite or some string will be the output of false
+        var num =isFinite(b);
+        document.write(num +"<br>" );
+        var b = 10 ; // only integer value will be true. 
+        // some srting or decimal (.) value will be false 
+        var num =Number.isInteger(b);
+        document.write(num +"<br>" );
+        
     </script>
 </head>
 <body>
